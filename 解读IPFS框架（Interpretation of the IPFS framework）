@@ -1,3 +1,29 @@
 解读IPFS框架
 Interpretation of the IPFS framework
 
+P2P模块
+
+P2P 结构体
+结构保存有关当前正在运行的流/侦听器的信息
+结构体成员
+{
+ 
+}
+
+创建一个新的P2P结构体函数
+
+远程侦听器创建新的P2P流
+
+Listener将流处理程序包装到侦听器中
+
+P2PListener保存有关侦听器的信息
+
+Accept等待来自侦听器的连接
+
+Close关闭侦听器并删除流处理程序
+
+Listen创建新的P2PListener
+
+NewListener创建新的p2p侦听器
+
+CheckProtoExists检查协议处理程序是否已注册
